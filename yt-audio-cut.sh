@@ -3,8 +3,8 @@
 # Download and cut audio from a yt video
 
 print_usage(){
-    echo "Usage: ./ytacut.sh -u <URL> -f <from_timestamp> -t <to_timestamp> -o <output_filename>"
-    echo "Example: ./ytacut.sh -u <URL> -f 00:01:30 -t 00:02:00 -o test.mp3"
+    echo "Usage: ./yt-audio-cut.sh -u <URL> -f <from_timestamp> -t <to_timestamp> -o <output_filename>"
+    echo "Example: ./yt-audio-cut.sh -u <URL> -f 00:01:30 -t 00:02:00 -o test.mp3"
     echo "Dependencies: youtube-dl and ffmpeg"
 }
 
